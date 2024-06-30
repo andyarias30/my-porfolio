@@ -6,7 +6,7 @@ import { ArrowUpTrayIcon } from "@heroicons/react/20/solid";
 
 const Hero = () => {
   return (
-    <div className="h-[88vh] bg-[url('/images/banner.jpg')] bg-cover bg-center ">
+    <div className="h-[88vh] bg-[url('/images/banner.jpg')] mt-[10vh] bg-cover bg-center ">
       <Particle />
       <div className="w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[100%] items-center">
         <div>
@@ -25,13 +25,15 @@ const Hero = () => {
             <button className="px-[2rem] hover:bg-yellow-400 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-[#55e6a5] text-black">
               Hire Me
             </button>
-            <button className="px-[2rem] hover:bg-yellow-400 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-[#55e6a5] text-black flex items-center space-x-2">
-              <p>Download CV</p>
-              <ArrowUpTrayIcon className="w-[1.6rem] h-[1.7rem] text-black" />
+            <button className="flex items-center space-x-2">
+              <ArrowUpTrayIcon className="w-[4rem] h-[4rem] hover:text-yellow-400 transition-all duration-200 text-[#55e6a5]" />
+              <p className="text-[20px] font-semibold text-white  ">
+                Download CV
+              </p>
             </button>
           </div>
         </div>
-        <div className="w-[500px] hidden bg-[#55e6a5] relative lg:flex items-center rounded-full h-[500px]">
+        <div className="w-[500px] hidden bg-black relative lg:flex items-center rounded-full h-[500px]">
           <Image
             src="/images/u1.jpg"
             alt="user"
