@@ -16,10 +16,10 @@ const Hero = () => {
 
           <TextEffect />
           <p className="mt-[1.5rem] text-[20px] text-[#ffffff92]">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto modi
-            qui explicabo quod cupiditate molestias, in, nesciunt temporibus
-            quas ratione illum, architecto doloribus laboriosam repellendus
-            excepturi harum nihil. Ex, iusto.
+            💻Full-Stack Developer | Software Engineer | QA Engineer | AI |
+            JavaScript | | Typescript /⚛️ React/React Native | Node/Express |
+            mySQL / | Firebase🔥 |🐘Postgres🐘 | Docker🐳 | Tailwind | Bootstrap
+            | Angular | Java Coral Springs, Florida.
           </p>
           <div className="mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6">
             <button className="px-[2rem] hover:bg-yellow-400 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-[#55e6a5] text-black">
